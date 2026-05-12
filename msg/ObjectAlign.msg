@@ -20,6 +20,11 @@ string text_prompt
 # 사용할 로봇 팔 "left", "right"
 string selected_arm
 
+# 선반 종류
+# 예: "shelf_a", "shelf_b"
+# 로봇팔 노드는 이 값을 보고 어떤 collision model을 띄울지 결정한다.
+string shelf_type
+
 # Aruco marker 중심 위치
 # base_link 기준
 geometry_msgs/Point marker_position
